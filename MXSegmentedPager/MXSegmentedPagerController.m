@@ -22,7 +22,7 @@
 
 #import "MXSegmentedPagerController.h"
 
-@interface MXSegmentedPagerController () <MXPageSegueDelegate>
+@interface MXSegmentedPagerController () <MXPagerViewDelegate>
 @property (nonatomic, strong) NSMutableDictionary<NSString *, UIViewController *> *pageViewControllers;
 @end
 
